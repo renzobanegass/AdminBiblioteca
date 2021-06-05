@@ -1,5 +1,13 @@
 # AdminBiblioteca
 
+Programa para Evaluación de Quark Academy
+
+El diagrama UML es una imagen JPEG.
+
+El proyecto es una aplicación de consola C#.
+
+Evaluación teórica:
+
 Nombre: Renzo Banegas
 
 1. En C#, ¿para qué sirve una propiedad?.
