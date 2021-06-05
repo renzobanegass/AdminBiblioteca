@@ -1,0 +1,7 @@
+C:\Users\samsung\Desktop\QuarkExamen\RepoBiblioteca\AdminBiblioteca\AdminBiblioteca\AdminBiblioteca\bin\Release\AdminBiblioteca.exe.config
+C:\Users\samsung\Desktop\QuarkExamen\RepoBiblioteca\AdminBiblioteca\AdminBiblioteca\AdminBiblioteca\bin\Release\AdminBiblioteca.exe
+C:\Users\samsung\Desktop\QuarkExamen\RepoBiblioteca\AdminBiblioteca\AdminBiblioteca\AdminBiblioteca\bin\Release\AdminBiblioteca.pdb
+C:\Users\samsung\Desktop\QuarkExamen\RepoBiblioteca\AdminBiblioteca\AdminBiblioteca\AdminBiblioteca\obj\Release\AdminBiblioteca.csprojAssemblyReference.cache
+C:\Users\samsung\Desktop\QuarkExamen\RepoBiblioteca\AdminBiblioteca\AdminBiblioteca\AdminBiblioteca\obj\Release\AdminBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\samsung\Desktop\QuarkExamen\RepoBiblioteca\AdminBiblioteca\AdminBiblioteca\AdminBiblioteca\obj\Release\AdminBiblioteca.exe
+C:\Users\samsung\Desktop\QuarkExamen\RepoBiblioteca\AdminBiblioteca\AdminBiblioteca\AdminBiblioteca\obj\Release\AdminBiblioteca.pdb
