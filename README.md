@@ -7,6 +7,7 @@ Nombre: Renzo Banegas
  Proveen acceso para leer o modificar un campo privado dentro de una clase, a la vez que permite modificar los accesos Get y Set para ese campo.
  
 2. ¿Cuándo utilizaría acceso protegido en los miembros de una clase?
+
   Cuando declaro los atributos o métodos de una superclase si se requiere que las clases derivadas puedan acceder a ellos.
   
 3. En UML, ¿qué tipo de relación es la siguiente?
