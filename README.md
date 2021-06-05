@@ -19,13 +19,13 @@ Una relación de dependencia entre dos clases implica que una clase A utiliza la
 
 5. Indique V o F según corresponda. Si es F, fundamente su respuesta:
 
-  a. Un constructor es un método que se invoca de forma automática cuando se instancia el objeto de la clase. V.
-  
-  b. Un constructor debe tener siempre el mismo nombre de la clase. V.
-  
-  c. Un constructor puede retornar un valor. F, no pueden retornar valores, el tipo que devuelve el constructor es de la clase que construye.
-  
-  d. Un constructor puede ser privado. V.
-  
-  e. Una clase sólo puede tener declarado un único constructor. F, pueden declararse varios constructores en una misma clase utilizando la sobrecarga de métodos.
-  
+   a. Un constructor es un método que se invoca de forma automática cuando se instancia el objeto de la clase. V.
+
+   b. Un constructor debe tener siempre el mismo nombre de la clase. V.
+
+   c. Un constructor puede retornar un valor. F, no pueden retornar valores, el tipo que devuelve el constructor es de la clase que construye.
+
+   d. Un constructor puede ser privado. V.
+
+   e. Una clase sólo puede tener declarado un único constructor. F, pueden declararse varios constructores en una misma clase utilizando la sobrecarga de métodos.
+
