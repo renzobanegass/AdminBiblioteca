@@ -14,10 +14,9 @@ namespace AdminBiblioteca.Models
 
         protected int numId;
 
-        protected List<Ejemplar> ejemplaresRetirados;
+        protected List<Ejemplar> ejemplaresRetirados = new List<Ejemplar>();
 
         protected int maxPrestamo;
-        private decimal cuota;
 
         public Socio(string _nombre, string _apellido, int _id)
         {
@@ -25,11 +24,6 @@ namespace AdminBiblioteca.Models
             apellido = _apellido;
             numId = _id;
             maxPrestamo = 1;
-        }
-
-        public Socio(decimal cuota)
-        {
-            this.cuota = cuota;
         }
 
         public string consultarNombre()
@@ -47,7 +41,7 @@ namespace AdminBiblioteca.Models
         }
         public bool consultarCupo()
         {
-            if (ejemplaresRetirados.Count <= maxPrestamo)
+            if (ejemplaresRetirados.Count < maxPrestamo)
                 return true;
             else
                 return false;            

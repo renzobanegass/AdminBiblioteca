@@ -29,9 +29,9 @@ namespace AdminBiblioteca.Models
             return ejemplar.consultarEdicion();
         }
 
-        public DateTime consultarFecha()
+        public string consultarFecha()
         {
-            return fechaPrestamo;
+            return fechaPrestamo.ToShortDateString();
         }
 
         public Prestamo(Ejemplar _ejemplar, Socio _socio)

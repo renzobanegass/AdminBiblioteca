@@ -16,7 +16,7 @@ namespace AdminBiblioteca.Models
 
         private string autor;
 
-        private List<Ejemplar> listaEjemplares;
+        private List<Ejemplar> listaEjemplares = new List<Ejemplar>();
 
         public Libro(int _id, string _nombre, string _ISBN, string _autor)
         {
@@ -32,7 +32,7 @@ namespace AdminBiblioteca.Models
         }
         public int getId()
         {
-            return id;
+            return id;  
         }
         public string getNombre()
         {
@@ -58,9 +58,9 @@ namespace AdminBiblioteca.Models
         public bool consultaEjemplares()
         {
             if (listaEjemplares.Count > 0)
-                return false;
+                return true;
             else
-                return true;            
+                return false;            
         }
 
         public Ejemplar prestarEjemplar()

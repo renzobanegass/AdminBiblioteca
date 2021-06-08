@@ -18,14 +18,15 @@ namespace AdminBiblioteca.Presentators
 
         public void consultarDatosLibro(Libro libro)
         {            
-         
-            objLibroView.SendInfo($"Id: {libro.getId()}, Nombre: {libro.getNombre()}, ISBN: {libro.getISBN()}, Autor: {libro.getAutor()}");
 
+                objLibroView.SendInfo($"Id: {libro.getId()}, Nombre: {libro.getNombre()}, ISBN: {libro.getISBN()}, Autor: {libro.getAutor()}");
+            
         }
 
         public void agregarEjemplarLibro(int numEdicion, string ubicacion, Libro libro)
-        {
-            libro.agregarEjemplar(numEdicion, ubicacion);
+        {            
+
+            libro.agregarEjemplar(numEdicion, ubicacion);           
 
             objLibroView.SendInfo("Ejemplar agregado correctamente");
         }
@@ -49,6 +50,7 @@ namespace AdminBiblioteca.Presentators
         {
             Ejemplar ejemplar = libro.prestarEjemplar();
 
+            //Agregar excepcion para null
             objLibroView.SendInfo($"Número de edición del ejemplar prestado: {ejemplar.consultarEdicion()} y su ubicación es: {ejemplar.consultarUbicacion()}");
 
             return ejemplar;

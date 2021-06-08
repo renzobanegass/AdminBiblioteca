@@ -11,7 +11,7 @@ namespace AdminBiblioteca.Models
         private decimal cuotaMensual;
 
         public SocioVIP(string _nombre, string _apellido, int _id, decimal _cuota) 
-            : base(_cuota)
+            : base(_nombre, _apellido, _id)
         { 
             cuotaMensual = _cuota;
             maxPrestamo = 3;
